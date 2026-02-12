@@ -71,22 +71,6 @@ PYTHONPATH=src python -m support_copilot.cli --ask "Standard shipping takes how 
 Note: if you copy commands from VS Code, make sure you're copying the raw command.
 Text like `[python](http://_vscodecontentref_/...)` is a clickable link, not a shell command.
 
-## Import Verda docs (optional)
-
-Verda docs provide an official LLM-friendly text export:
-
-```
-curl -L https://docs.verda.com/llms-full.txt -o knowledge/verda_llms_full.txt
-```
-
-The app will ingest it on startup.
-
-You can then ask questions, and the copilot will retrieve relevant information from the knowledge base and provide structured answers along with the sources.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
